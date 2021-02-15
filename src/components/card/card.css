@@ -1,8 +1,4 @@
 .card {
-  color: rgb(100, 100, 100);
-  display: grid;
-  background: transparent;
-  perspective: 1000px;
 }
 
 .card h2,
@@ -13,8 +9,16 @@
 
 .container {
   display: grid;
+  width: 100%;
+  padding: 1em;
 }
 
 .catImage {
   border: none;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  margin: 1em 0;
+}
+.btn__cat {
 }
