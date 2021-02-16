@@ -1,0 +1,21 @@
+.card h2,
+.card p {
+  padding-left: 0.75rem;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.catImage {
+  border: none;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  margin: 1em 0;
+}
