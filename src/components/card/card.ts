@@ -11,9 +11,17 @@ export function createCard({ imgSrc }) {
         className: "catImage",
         src: imgSrc,
       }),
-      createElement("button", {
-        className: "btn",
-        innerText: "Next Cat",
+    ],
+  });
+}
+
+export function createRandomCard({ imgSrc }) {
+  return createElement("div", {
+    className: "container",
+    childs: [
+      createElement("img", {
+        className: "catImage",
+        src: imgSrc,
       }),
     ],
   });
